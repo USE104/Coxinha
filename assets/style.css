@@ -1,0 +1,150 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    height: 240px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: auto;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 600px){
+}
+
+.topnav a, .topnav input[type=search]{
+    float: none;
+    display: block;
+    text-align: center;
+    width: 400%;
+    padding: 50px;
+}
+
+.icon-bar{
+    width: auto ; /* Full-width */
+    background-color:content; 
+    overflow: auto; /* Overflow due to float */
+    margin-bottom: 10px;
+
+}
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 20px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 25px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #1a855ef3; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #1a855ef3; /* Add an active/current color */
+  }
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 25px;
+    
+  }
+
+  .nav ul, nav li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: #0a0a00;
+    display: block;
+}
+nav .active, nav a:hover{
+    color:rgb(15, 13, 13);
+}
+
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    text-align: center;
+  }
+
+body{
+background-color: bisque;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.tenor-gif-embed{
+  margin-top: 100px;
+}
+
+.hover-shados{
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+footer img{
+  width: 55px; 
+  position: fixed;
+   bottom: 10px; 
+   right: 10px; 
+   z-index:20000; 
+   cursor: pointer;
+   text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  top: -10px;
+  background-color: bisque;
+}
+
+.insta{
+  margin:20px;
+}
+
+.face{
+  margin:20px;
+}
+
+.twitter{
+  margin:20px;
+
+}
+
+.banner_f{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}

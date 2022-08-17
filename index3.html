@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/5c3542a6a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style2.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Formulário Delivery -Coxinhas quero +</title>
+</head>
+<body>
+    <header>
+        <div class="icon-bar">
+          <a class="active" href="index.html"><i class="fa fa-home"> Home</i></a> 
+          <a class="active" class="gsc-input" name="search" ><i class="fa fa-search"> <input type="search" placeholder="Encontre seu prato"></i></a>
+          <a class="active" href="https://www.google.com.br/maps/place/Senac+Largo+Treze/@-23.6470996,-46.7060295,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce50f8ac76dfdb:0xc160a87f059ec93d!8m2!3d-23.6471045!4d-46.7038408"><i class="fa fa-globe"> Local</i></a>
+          <a class="active" href="index2.html"><i class="fa fa-user"> Fale Conosco</i></a>
+        </div>
+    </header>
+      
+    <section>
+        <div class="logo">
+          <img src="./assets/img/logotipo.png">
+        </div>
+    </section>
+    
+    
+    
+    <div class="centro">
+        <div class="text">
+        <h2><strong>Formulário de Delivery</strong></h2></div>
+        <div class="container"> 
+        
+
+        <div class="field">
+            <label class="label">Nome Completo</label>
+            <div class="control has-icons-left">
+                <input class="input" type="text" placeholder="Nome" required>
+                <span class="icon is-small is-left">
+                    <i class="fa-solid fa-id-card"></i>
+                </span>
+            </div>
+        </div>
+    
+        <div class="field">
+            <label class="label">Número do Pedido</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="text" placeholder="" required>
+                <span class="icon is-small is-left">
+                    <i class="fa-solid fa-xmarks-lines"></i>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="field">
+            <label class="label">Telefone para Contato</label>
+            <div class="columns">
+                <div class="column">
+                    <div class="control has-icons-left">
+                        <span class="icon is-small is-left">
+                            <i class="fa-solid fa-square-phone"></i>
+                        </span>
+                        <div class="select">
+                            <select>
+                                <option selected>Selecione o tipo</option>
+                                <option value="FIXO">FIXO</option>
+                                <option value="CELULAR">CELULAR</option>
+                            </select>
+                         </div>
+                        </div>
+                    </div>
+    
+                    <div class="column">
+                        <div class="organizacao">
+                            <div class="control has-icons-left has-icons-right">
+                             <input class="input" type="tel" placeholder="Coloque seu numero"  required>
+                                <span class="icon is-small is-left">
+                                <i class="fa-solid fa-phone"></i>
+                                </span>
+                            </div>   
+                        </div>
+                    </div>   
+                </div>
+                
+                <div class="field">
+                    <label class="label">Lougradouro</label>
+                    <div class="columns">
+                        <div class="column">
+                        <input class="input" type="text">
+                        </div>
+                    </div>
+                </div>
+
+
+                   
+                <div class="field">
+                    <label class="label ">Valor do Serviço Delivery</label>
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                        <input class="input" type="text" value=" R$ 15,00">
+                        </div>
+                    </div>
+                </div>
+      
+
+            <div class="field">
+                <div class="control">
+                <label class="label"> Forma de Pagamento</label>
+                <input type="radio" id="Crédito" name="Pagamento" value=" Crédito">
+                <label for="Crédito"> Crédito</label>
+                <input type="radio" id="Debito" name="Pagamento" value=" Debito">
+                <label for="Debito"> Débito</label>
+                <input type="radio" id="PIX" name="Pagamento" value="PIX">
+                <label for="PIX"> PIX</label>
+                <input type="radio" id="Dinheiro" name="Pagamento" value=" Dinheiro">
+                <label for="Dinheiro">Dinheiro</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        Eu aceito os <a href="index4.html">termos e condições</a> de entrega
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="field is-grouped">
+                <div class="control">
+                    <a href=""><button class="button is-link">Enviar</button></a>
+                </div>
+                <div class="control">
+                    <a href=""><button class="button is-link-light">Cancelar</button></a>
+                </div>        
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="https://f.hubspotusercontent10.net/hubfs/6006019/WEBSITE/whats/icones-whatsapp.png" alt="Whatsapp">
+      </footer>
+</body>
+</html>
